@@ -40,8 +40,14 @@ body {
     line-height: 1.2;
 }
   
-.container {
+.big-container {
     max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container {
+    max-width: 920px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -136,4 +142,123 @@ body {
 }
 
 /* _____________________________________________________________ */
+
+
+
+.info {
+    margin-bottom: 100px;
+}
+
+.info-part {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-part-first {
+    display: block;
+}
+
+.info-part-third {
+    margin-top: 66px
+}
+
+.info-title {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.info-part-textbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+
+.info-text{
+    flex-basis: 440px;
+    margin-bottom: 30px;
+}
+
+.info-part-textbox b{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.info-part-img {
+    object-fit: cover;
+}
+
+.info-content {
+    flex-basis: 415px;
+}
+
+.info-part-second .info-text {
+    max-width: 352px;
+}
+
+.info-part-third .info-text {
+    max-width: 377px;
+}
+
+.info-table {
+    flex-basis: 450px;
+    border-bottom: 1px solid var(--Black);
+    position: relative;
+    top: 20px;
+}
+
+.info-table::before {
+    content: '';
+    border-top: 1px solid var(--Black);
+    position: absolute;
+    width: 100%;
+    top: -20px;
+}
+
+.info-table td{
+    padding-bottom: 20px;
+}
+
+/* _____________________________________ */
+
+
+.track {
+    background-image: url(../images/track-backround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.track-inner{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.track-title {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 47px;
+    padding-bottom: 30px;
+}
+
+.track-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    max-width: 435px;
+}
+
+
+.track-img {
+    margin: auto auto 90px auto;
+}
+
+/* ___________________________________________ */
 
